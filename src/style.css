@@ -1,0 +1,52 @@
+@font-face{
+	font-family:'Aloja';
+	src: url('./font/Aloja-Light.otf');
+}
+
+html, body{ margin: 1rem 0; padding: 0; background: black; color: white; }
+
+.container *{
+	margin: 1rem;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	width: 80vw;
+	height: 90vh;
+}
+
+.container p{
+	font-size: 14pt;
+	font-family: cursive;
+}
+
+.title{
+	text-align: center;
+	color: #ebe5d2;
+	text-shadow: 1px 1px 10px #F1E6C3;
+	font-family: 'Aloja', times	;
+}
+
+.btn{
+	border: 10px solid rgba(142, 142, 142, 10%);
+	border-radius: 5px;
+	width: 100px;
+	margin: 0;
+}
+
+.btn:hover{
+	border: 10px solid rgba(140, 140, 140, 1.0);
+	box-shadow: 1px 1px 10px #e4e4e4;
+}
+
+a{ text-decoration: none; margin: 0; padding: 0;}
+
+span{
+	display: grid;
+	font-size: 14pt;
+	font-family: cursive;
+	justify-items: center;
+}
